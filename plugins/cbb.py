@@ -10,8 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>𖣘𖦹𝙽𝐀TՏU𖦹𖣘
-</a>\n○ ᴍʏ Channel : <a href='https://t.me/EveryKdramas'>EVERY KDRAMA</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/EveryKdrama'>ᴛᴇᴀᴍ EveryKdrama</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/EveryKdrama'>Kdrama ɴᴇᴛᴡᴏʀᴋ</a>\n○ Kdrama ᴄʜᴀᴛ : <a href='https://t.me/Everykdramachat'>Chat Group</a></b>",
+            text = f"<b>┏• Creator : <a href='https://t.me/NatsuSenpai'>Yours Truly</a>\n┣• Channel : <a href='https://t.me/Everykdrama'>Every Kdrama</a>\n┗• Support Group : <a href='https://t.me/everykdramachat'>Every Kdrama Chat</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
